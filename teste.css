@@ -240,6 +240,7 @@ body, html {
   font-family: ProximaNova-It;
   font-size: 11px;
   text-align: left;
+  margin-top:4%;
   padding-top:4%;
   padding-bottom:2%;
   padding-left:8%; 
@@ -247,7 +248,10 @@ body, html {
   float: left;
   margin-right: 2%;
 }
-
+.Newsletter img{
+  margin-top: 7%;
+  margin-left: 5%;
+}
 /*footer*/
 .footer{
   width: 100%;
