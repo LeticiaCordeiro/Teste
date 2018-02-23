@@ -209,9 +209,45 @@ body, html {
 }
 .img-contato{
   margin-top:15%;
-  margin-left:40%;
-
+  margin-left:37%;
+ }
+ .contato img{
+  margin-right: 3%;
+ }
+/*contato input*/
+.email{
+  width: 200px;
+  height: 43px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 50%;
 }
+.Newsletter {
+  width: 400px;
+  height: 43px;
+  margin-top: 3%;
+  margin-left: 35%;
+  color: #545454;
+}
+.Newsletter p{
+  float: left;
+  margin-top: 2.5%;
+}
+.email p {
+  width: 130px;
+  height: 13px;
+  border-right:solid 1px #d3d3d3;
+  font-family: ProximaNova-It;
+  font-size: 11px;
+  text-align: left;
+  padding-top:4%;
+  padding-bottom:2%;
+  padding-left:8%; 
+  color: #d3d3d3;
+  float: left;
+  margin-right: 2%;
+}
+
 /*footer*/
 .footer{
   width: 100%;
