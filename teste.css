@@ -1,0 +1,223 @@
+/* fontes*/
+@font-face {
+  font-family:blackJack;
+  src: url('/Font/blackJack.otf');
+}
+/* Geral */
+body, html {
+  height: 100%;
+  margin: 0%;
+}
+
+/* header */
+/* header fundo */
+.bgimg-1 {
+  background-size: cover;
+  background-image: url("Img/header_bg.jpg");
+  height: 100%;
+}
+/* header logo */
+.logo{
+  font-family: 'Kaushan Script', cursive;
+  font-size:40px;
+  padding: 0%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 10px 10px #27b1e6;
+  margin-left: 12%;
+  float:left;
+}
+.logo p{
+  margin: 0%;
+  font-size: 50px;
+  color: #0da9e5;
+  text-align: center;
+}
+
+.nav{
+  margin-top:36px;
+  margin-right: 13%;
+  width:30px;
+  height:25px;
+  float: right;
+}
+/* header iphone5*/
+.iphone5{
+  width: 228px;
+  height: 482px;
+  margin-left: 231px;
+  padding-top: 30%;
+}
+.device {
+  border-radius: 31.9px;
+  background-color: #474e5d;
+  padding-top: 7%;
+}
+.overlay {
+  width: 200px;
+  height: 350px;
+  background-color: #f3787a;
+  margin-left:15px;
+  margin-top:11%;
+}
+.speaker {
+  width: 43px;
+  height: 10px;
+  background-color: #a5a4a4;
+  border-radius: 31.9px;
+  margin-left:40.4%;
+  margin-top:4%;
+}
+.camera {
+  width: 9px;
+  height: 9px;
+  background-color: #a5a4a4;
+  border-radius: 31.9px;
+  margin-left:47.8%;
+}
+/* header texto*/
+.Meet-Perth {
+  width: 303px;
+  height: 71px;
+  font-family: BlackJack;
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 797px;
+  margin-right: 160px;
+  margin-top: 5%;
+  float: right;
+  float:left;
+  border:solid  1px red;
+}
+/* header btn*/
+.btn-download {
+  width: 169px;
+  height: 53px;
+  margin-left: 73.7%;
+  margin-right: 12.9%;
+  margin-top: 20%;
+  float: right;
+  color:#ffffff;
+  border-radius: 2px;
+  border:solid  2px #ffffff;
+}
+
+.btn-download p {
+  padding-left: 15%;
+  padding-top: 3%;
+  font-size: 14px;
+  float: left;
+}
+.btn-download img{
+  padding-left: 13%;
+  padding-top: 12%;
+}
+/* about */
+.about{
+  width: 100%;
+  height: 651px;
+  background-color: #f4f4f4;
+  overflow-x: hidden; 
+}
+/* about - ipad */
+.ipad{
+  float: left;
+  margin-top: 10%;
+  margin-left: 74.5%;
+  z-index:1;
+  position: absolute;
+}
+.device-ipad {
+  width: 342px;
+  height: 560px;
+  border-radius: 18.4px 0px 0px 18.4px;
+  background-color: #474e5d;
+  padding-top:7%;
+}
+.overlay-ipad {
+  width: 325px;
+  height: 475px;
+  background-color: #fee9a3;
+  margin-top:7%;
+  margin-left: 5%;
+}
+.camera-ipad{
+  width: 8px;
+  height: 7px;
+  background-color: #a5a5a5;
+  border-radius: 31.9px;
+  margin-left:55%;
+}
+/* portifolio*/
+.portfolio{
+  width: 100%;
+  height: 650px;
+  background-color: #ffffff;
+  z-index:3;
+  position: absolute;
+}
+.apple{
+  margin-top: 37%;
+}
+/* donate*/
+.bgimg-2 {
+  background-size: cover;
+  background-image: url("Img/bgimg-2.png");
+  width: 100%;
+  height: 323px;
+  z-index:10;  
+  position: absolute;
+  margin-top:63%;
+}
+/* donate btn*/
+.btn-beer {
+  width: 169px;
+  height: 53px;
+  margin-left: 41.7%;
+  margin-top: 5%;
+  color:#ffffff;
+  border-radius: 2px;
+  border:solid  2px #ffffff;
+}
+
+.btn-beer p {
+  padding-left: 8%;
+  padding-top: 3%;
+  font-size: 14px;
+  float: left;
+}
+.btn-beer img{
+  padding-left: 9%;
+  padding-top: 12%;
+}
+.texto{
+  margin-left: 35.9%;
+  margin-top: 5%;
+  color:#ffffff;
+  font-family: 'Myriad Pro Regular';
+  font-size:40px;
+}
+/*contato*/
+.contato{
+  width: 100%;
+  height: 600px;
+  background-color: #f4f4f4;
+  z-index:10;  
+  position: absolute;
+  margin-top:87%;
+}
+.img-contato{
+  margin-top:15%;
+  margin-left:40%;
+
+}
+/*footer*/
+.footer{
+  width: 100%;
+  height: 133px;
+  background-color: white;
+  z-index:10;  
+  position: absolute;
+  margin-top:15%;
+}
