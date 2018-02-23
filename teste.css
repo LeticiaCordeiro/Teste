@@ -160,6 +160,43 @@ body, html {
 .apple{
   margin-top: 37%;
 }
+.conteudo{
+  border:solid 1px red;
+}
+.seg-txt{
+  font-family: ProximaNova;
+  font-size: 16px;
+  text-align: left;
+  color: #7e7e7e;
+}
+.div-seg-txt{
+  margin-top: 5%;
+}
+.pri-txt{
+  font-family: ProximaNova-It;
+  color: #474e5d;
+}
+/* portifolio btn*/
+.btn-por {
+  width: 169px;
+  height: 53px;
+  margin-left: 41.7%;
+  margin-top: 5%;
+  color: #ea4c89;
+  border-radius: 2px;
+  border:solid  2px #ea4c89;
+}
+
+.btn-por p {
+  padding-left: 8%;
+  padding-top: 3%;
+  font-size: 14px;
+  float: left;
+}
+.btn-por img{
+  padding-left: 9%;
+  padding-top: 12%;
+}
 /* donate*/
 .bgimg-2 {
   background-size: cover;
