@@ -16,6 +16,18 @@ body, html {
   background-image: url("Img/header_bg.jpg");
   height: 100%;
 }
+.modal-nav{
+  background-color:#e57f85;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:100;
+  position: fixed;
+}
 /* header logo */
 .logo{
   font-family: 'Kaushan Script', cursive;
@@ -118,6 +130,7 @@ body, html {
   padding-left: 13%;
   padding-top: 12%;
 }
+
 /* about */
 .about{
   width: 100%;
