@@ -1,0 +1,484 @@
+@media screen and (max-width: 1014px) {
+
+  /* header */
+  /* header modal */
+  .modal-nav .nav{
+    margin-top:1.5%;
+    margin-right: 19%;
+    float: right;
+    color:white;
+    font-size:20px;
+  }
+  .div-nav{
+    width: 20%;
+    right: 70%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-nav p{
+  float: left;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 7%;
+  margin-left:3%;
+  }
+  /* header iphone5*/
+  .iphone5{
+    width: 228px;
+    height: 482px;
+    margin-left: 5%;
+    padding-top: 30%;
+  }
+  /* header texto*/
+  .bgimg-1 .pri-txt{
+    font-family: ProximaNova;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  /* about */
+  .about{
+    width: 100%;
+    height: 651px;
+    background-color: #f4f4f4;
+    overflow-x: hidden; 
+  }
+  /* about - ipad */
+  .ipad{
+    float: left;
+    margin-top: 10%;
+    margin-left: 74.5%;
+    z-index:1;
+    position: absolute;
+  }
+  .device-ipad {
+    width: 259px;
+    height: 560px;
+    border-radius: 18.4px 0px 0px 18.4px;
+    background-color: #474e5d;
+    padding-top:7%;
+  }
+  .overlay-ipad {
+    width: 246px;
+    height: 475px;
+    background-color: #fee9a3;
+    margin-top:7%;
+    margin-left: 5%;
+  }
+  /* portifolio*/
+  .apple{
+    margin-top: 27%; 
+    z-index:1;
+    position: absolute;
+  }
+  .conteudo{
+    width: 39%;
+    height: 65%;
+    float: right;
+    margin-right:0%;
+    margin-top:5%;
+  }
+  .titulo{
+    font-family: ProximaNova;
+    font-size: 30px;
+    text-align: left;
+    color: #545454
+  }
+  .seg-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    text-align: left;
+    color: #7e7e7e;
+  }
+  .div-seg-txt{
+    margin-top: 10%;
+  }
+  .pri-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    color: #474e5d;
+  }
+  /*footer*/
+  .footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index:10;  
+    position: absolute;
+    margin-top:22%;
+
+  }
+}
+/* laptop */
+@media screen and (max-width: 1024px) {
+
+  /* header */
+  /* header modal */
+  .modal-nav .nav{
+    margin-top:2%;
+    margin-right: 13%;
+    float: right;
+    color:white;
+    font-size:20px;
+  }
+  .div-nav{
+    width: 20%;
+    right: 70%;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* header iphone5*/
+  .iphone5{
+    width: 228px;
+    height: 482px;
+    margin-left: 10%;
+    padding-top: 50%;
+  }
+  /* header texto*/
+  .bgimg-1 .pri-txt{
+    font-family: ProximaNova;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  /* about */
+  .about{
+    width: 100%;
+    height: 651px;
+    background-color: #f4f4f4;
+    overflow-x: hidden; 
+  }
+  /* about - ipad */
+  .ipad{
+    float: left;
+    margin-top: 10%;
+    margin-left: 74.5%;
+    z-index:1;
+    position: absolute;
+  }
+  .device-ipad {
+    width: 259px;
+    height: 560px;
+    border-radius: 18.4px 0px 0px 18.4px;
+    background-color: #474e5d;
+    padding-top:7%;
+  }
+  .overlay-ipad {
+    width: 246px;
+    height: 475px;
+    background-color: #fee9a3;
+    margin-top:7%;
+    margin-left: 5%;
+  }
+  /* portifolio*/
+  .apple{
+    margin-top: 28%; 
+    z-index:1;
+    position: absolute;
+  }
+  .conteudo{
+    width: 39%;
+    height: 65%;
+    float: right;
+    margin-right:0%;
+    margin-top:5%;
+  }
+  .titulo{
+    font-family: ProximaNova;
+    font-size: 30px;
+    text-align: left;
+    color: #545454
+  }
+  .seg-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    text-align: left;
+    color: #7e7e7e;
+  }
+  .div-seg-txt{
+    margin-top: 10%;
+  }
+  .pri-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    color: #474e5d;
+  }
+  /*contato*/
+.img-contato{
+  margin-top:20%;
+  margin-left:37%;
+ }
+  /*footer*/
+  .footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index:10;  
+    position: absolute;
+    margin-top:22%;
+
+  }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  /* header */
+  /* header modal */
+  .modal-nav .nav{
+    margin-top:1.5%;
+    margin-right: 19%;
+    float: right;
+    color:white;
+    font-size:20px;
+  }
+  .div-nav{
+    width: 30%;
+    right: 70%;
+    margin-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-nav p{
+  float: left;
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 7%;
+  margin-left:3%;
+  }
+  /* header iphone5*/
+  .iphone5{
+    width: 200px;
+    height: 482px;
+    margin-left: 5%;
+    padding-top: 50%;
+  }
+  .device {
+    border-radius: 31.9px;
+    background-color: #474e5d;
+    padding-top: 7%;
+  }
+  .overlay {
+    width: 174px;
+    height: 350px;
+    background-color: #f3787a;
+    margin-left:13px;
+    margin-top:10%;
+  }
+  .speaker {
+    width: 40px;
+    height: 8px;
+    background-color: #a5a4a4;
+    border-radius: 31.9px;
+    margin-left:40.4%;
+    margin-top:4%;
+  }
+  .camera {
+    width: 7px;
+    height: 7px;
+    background-color: #a5a4a4;
+    border-radius: 31.9px;
+    margin-left:47.8%;
+  }
+  /* header texto*/
+  .bgimg-1 .conteudo{
+    width:75%;
+    height: 45%;
+    float: left;
+    margin-left:13%;
+  }
+  .bgimg-1  .titulo{
+    font-family: 'blackJack';
+    font-size: 50px;
+    color: #ffffff;
+    text-align: right;
+  }
+  .bgimg-1 .pri-txt{
+    font-family: ProximaNova;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.71;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }  
+  /* about */
+  .about{
+    width: 100%;
+    height: 651px;
+    background-color: #f4f4f4;
+    overflow-x: hidden; 
+  }
+  /* about - ipad */
+  .ipad{
+    float: left;
+    margin-top: 10%;
+    margin-left: 74.5%;
+    z-index:1;
+    position: absolute;
+  }
+  .device-ipad {
+    width: 196px;
+    height: 560px;
+    border-radius: 18.4px 0px 0px 18.4px;
+    background-color: #474e5d;
+    padding-top:7%;
+  }
+  .overlay-ipad {
+    width: 186px;
+    height: 475px;
+    background-color: #fee9a3;
+    margin-top:7%;
+    margin-left: 5%;
+  }
+  .camera-ipad{
+    width: 8px;
+    height: 7px;
+    background-color: #a5a5a5;
+    border-radius: 31.9px;
+    margin-left:80%;
+  }
+  /* portifolio*/
+  .apple img{   
+    width: 60%;
+    height: 65%;
+    margin-top: 7%; 
+  }
+  .conteudo{
+    width: 39%;
+    height: 65%;
+    float: right;
+    margin-right:4%;
+    margin-top:5%;
+  }
+  .titulo{
+    font-family: ProximaNova;
+    font-size: 30px;
+    text-align: left;
+    color: #545454
+  }
+  .seg-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    text-align: left;
+    color: #7e7e7e;
+  }
+  .div-seg-txt{
+    margin-top: 10%;
+  }
+  .pri-txt{
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    color: #474e5d;
+  }
+  /* donate*/
+  .bgimg-2 {
+    background-size: cover;
+    background-image: url("Img/bgimg-2.png");
+    width: 100%;
+    height: 323px;
+    z-index:10;  
+    position: absolute;
+    margin-top:63%;
+  }
+  /* donate btn*/
+  .btn-beer {
+    width: 159px;
+    height: 43px;
+    margin-left: 41.7%;
+    margin-top: 3%;
+    color:#ffffff;
+    border-radius: 2px;
+    border:solid  2px #ffffff;
+    font-family: ProximaNova;
+  }
+
+  .btn-beer p {
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 14px;
+    float: left;
+  }
+  .btn-beer img{
+    padding-left: 9%;
+    padding-top: 12%;
+  }
+  .texto{
+    margin-left: 35.9%;
+    margin-top: 5%;
+    color:#ffffff;
+    font-family: ProximaNova;
+    font-size:30px;
+  }
+  /*contato*/
+  .contato{
+    width: 100%;
+    height: 500px;
+    background-color: #f4f4f4;
+    z-index:10;  
+    position: absolute;
+    margin-top:87%;
+  }
+  .img-contato{
+    margin-top:15%;
+    margin-left:37%;
+  }
+  .img-contato img{
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+  }
+  /*contato input*/
+  .email{
+    width: 200px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 50%;
+  }
+  .Newsletter {
+    width: 400px;
+    height: 43px;
+    margin-top: 3%;
+    margin-left: 30%;
+    color: #545454;
+  }
+  /*footer*/
+  .footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index:10;  
+    position: absolute;
+    margin-top:22%;
+  }
+}

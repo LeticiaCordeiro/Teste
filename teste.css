@@ -33,6 +33,7 @@ body, html {
   left: 0;
   z-index:100;
   position: fixed;
+  font-family: ProximaNova;
 }
 .modal-nav .nav{
   margin-top:1%;
