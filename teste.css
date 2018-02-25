@@ -1,8 +1,13 @@
 /* fontes*/
 @font-face {
-  font-family:blackJack;
-  src: url('/Font/blackJack.otf');
+  font-family:'blackJack';
+  src: url('/Font/blackJack.ttf');
 }
+@font-face {
+  font-family:'ProximaNova';
+  src: url('/Font/ProximaNova.otf');
+}
+
 /* Geral */
 body, html {
   height: 100%;
@@ -64,7 +69,7 @@ body, html {
 }
 .div-nav p{
  float: left;
- font-family: ProximaNova-It;
+ font-family: ProximaNova;
  font-size: 18px;
  font-weight: bold;
  font-style: normal;
@@ -137,7 +142,7 @@ body, html {
 }
 /* header texto*/
 .bgimg-1 .conteudo{
-  width: 55%;
+  width:55%;
   height: 55%;
   float: left;
   margin-left:33%;
@@ -145,16 +150,21 @@ body, html {
   padding-top:0%;
 }
 .bgimg-1  .titulo{
-  font-family: BlackJack;
+  font-family: 'blackJack';
   font-size: 60px;
   color: #ffffff;
   text-align: right;
 }
 .bgimg-1 .pri-txt{
-  font-family: ProximaNova-It;
-  color: #ffffff;
-  text-align: right;
+  font-family: ProximaNova;
   font-size: 35px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.71;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
 }
 /* header btn*/
 .btn-download {
@@ -165,6 +175,7 @@ body, html {
   color:#ffffff;
   border-radius: 2px;
   border:solid  2px #ffffff;
+  font-family: ProximaNova;
 }
 
 .btn-download p {
@@ -240,7 +251,7 @@ body, html {
   margin-top: 5%;
 }
 .about .pri-txt{
-  font-family: ProximaNova-It;
+  font-family: ProximaNova;
   color: #7e7e7e;
 }
 /* about btn */
@@ -251,6 +262,7 @@ body, html {
   color: #14af8f;
   border-radius: 2px;
   border:solid  2px #14af8f;
+  font-family: ProximaNova;
 }
 
 .btn p {
@@ -294,12 +306,23 @@ body, html {
   font-size: 16px;
   text-align: left;
   color: #7e7e7e;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: 0.4px;
 }
 .div-seg-txt{
   margin-top: 10%;
 }
 .pri-txt{
-  font-family: ProximaNova-It;
+  font-family: ProximaNova;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: 0.4px;
+  font-weight: 600;
   color: #474e5d;
 }
 /* portifolio btn*/
@@ -310,6 +333,7 @@ body, html {
   color: #ea4c89;
   border-radius: 2px;
   border:solid  2px #ea4c89;
+  font-family: ProximaNova;
 }
 
 .btn-por p {
@@ -341,6 +365,7 @@ body, html {
   color:#ffffff;
   border-radius: 2px;
   border:solid  2px #ffffff;
+  font-family: ProximaNova;
 }
 
 .btn-beer p {
@@ -357,7 +382,7 @@ body, html {
   margin-left: 35.9%;
   margin-top: 5%;
   color:#ffffff;
-  font-family: 'Myriad Pro Regular';
+  font-family: ProximaNova;
   font-size:40px;
 }
 /*contato*/
@@ -394,12 +419,13 @@ body, html {
 .Newsletter p{
   float: left;
   margin-top: 2.5%;
+  font-family: ProximaNova;
 }
 .email p {
   width: 130px;
   height: 13px;
   border-right:solid 1px #d3d3d3;
-  font-family: ProximaNova-It;
+  font-family: ProximaNova;
   font-size: 11px;
   text-align: left;
   margin-top:4%;
@@ -427,7 +453,7 @@ body, html {
 .footer b{
   width: 288px;
   height: 40px;
-  font-family: ProximaNova-It;
+  font-family: ProximaNova;
   font-size: 12px;
   line-height: 2.08;
   letter-spacing: 0.3px;
