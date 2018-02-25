@@ -31,11 +31,19 @@
   </div>
   <!-- modal nav -->
   <div class="modal-nav" id="modalNav">
-    oi
+    <div class="nav" onclick="closeModalNav()">
+      <p>X</p>
+    </div>
+    <div class="div-nav"  onclick="closeModalNav()">
+      <a href="#"><div class="iten-nav"><div class="circulo"><img src="Img/home.png"/></div><p><i>home</i></p></div></a>
+      <a href="#about"><div class="iten-nav"><div class="circulo"><img src="Img/coracao.png"/></div><p><i>about me</i></p></div></a>
+      <a href="#portfolio"><div class="iten-nav"><div class="circulo"><img src="Img/pc.png"/></div><p><i>portfolio</i></p></div></a>
+      <a href="#contato"><div class="iten-nav"><div class="circulo"><img src="Img/envelope_contorno_azul.png"/></div><p><i>drop me a line</i></p></div></a>
+    </div>
   </div> 
 </header>
 <!--about me -->
-<div class="about">
+<div class="about" id="about">
   <div class="conteudo">
     <p class="titulo">A Longwinded Header</p>
     <p class="pri-txt">She'll be right paddock how lets throw a ciggies. 
@@ -62,7 +70,7 @@
   </div>
 </div>
 <!--portfolio -->
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
     <div class="conteudo">
         <p class="titulo">Get a Dog Up Ya'</p>
         <p class="pri-txt">She'll be right paddock how lets throw a ciggies.</p> 
@@ -88,7 +96,7 @@
     </div>
 </div>
 <!--contato-->
-<div class="contato">
+<div class="contato" id="contato">
     <div class="img-contato">
         <img src="Img/dribbble.png"/>
         <img src="Img/facebook.png"/>
@@ -104,7 +112,7 @@
     <!-- Footer -->
     <div class="footer">
         <p><b>© 2013</b> Perth.<b><i>Breeding pixels since the naughties.</i></b></p>  
-        <img src="Img/to-top.png"/>
+        <a href="#"><img src="Img/to-top.png"/></a>
     </div>
 </div>
 
