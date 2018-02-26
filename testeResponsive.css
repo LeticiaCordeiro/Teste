@@ -1,4 +1,4 @@
-@media screen and (max-width: 1014px) {
+@media screen and (max-width: 1014px ) {
 
   /* header */
   /* header modal */
@@ -55,6 +55,14 @@
     height: 651px;
     background-color: #f4f4f4;
     overflow-x: hidden; 
+  }
+    /* about txt */
+  .about .conteudo{
+    width: 45%;
+    height: 65%;
+    float: left;
+    margin-left:13%;
+    margin-top:5%;
   }
   /* about - ipad */
   .ipad{
@@ -124,7 +132,7 @@
   }
 }
 /* laptop */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
   /* header */
   /* header modal */
@@ -168,6 +176,14 @@
     height: 651px;
     background-color: #f4f4f4;
     overflow-x: hidden; 
+  }
+  /* about txt */
+  .about .conteudo{
+    width: 45%;
+    height: 65%;
+    float: left;
+    margin-left:13%;
+    margin-top:5%;
   }
   /* about - ipad */
   .ipad{
@@ -370,7 +386,7 @@
   .apple img{   
     width: 60%;
     height: 65%;
-    margin-top: 7%; 
+    margin-top: 8%; 
   }
   .conteudo{
     width: 39%;
@@ -481,11 +497,29 @@
     position: absolute;
     margin-top:22%;
   }
+  .footer p{
+    font-family: ProximaNova;
+    color: #6dc5ea;
+    margin-top: 5%;
+    margin-left: 28%;
+    float: left;
+  }
+  .footer img{
+    margin-top: 3%;
+    margin-right: 4%;
+    float: right;
+  }
 }
 /* mobile L */
 @media screen and (max-width: 425px) {
   /* header */
   /* header modal */
+  .bgimg-1 {
+    background-size: cover;
+    background-image: url("Img/header_bg.jpg");
+    height: 100%;
+    width: 120%;
+  }
   .modal-nav .nav{
     margin-top:1.5%;
     margin-right: 19%;
@@ -592,7 +626,7 @@
   }
   /* about */
   .about{
-    width: 100%;
+    width: 120%;
     height: 551px;
     background-color: #f4f4f4;
     overflow-x: hidden; 
@@ -601,7 +635,6 @@
   .ipad{
     display:none;
   }
-  }
   /* about txt */
   .about .conteudo{
     width: 80%;
@@ -609,25 +642,16 @@
     float: left;
     margin-left:10%;
     margin-top:5%;
-  }
-  /* portifolio*/
-  .portfolio{
-    width: 100%;
-    height: 750px;
-    background-color: #ffffff;
-    z-index:3;
-    position: absolute;
-  }
-  .apple img{    
-    display: none;
+  }/* portifolio*/
+  .apple img{   
+    display:none;
   }
   .conteudo{
-    width: 90%;
+    width: 80%;
     height: 65%;
     float: right;
     margin-right:4%;
     margin-top:5%;
-    margin-bottom:8%;
   }
   .titulo{
     font-family: ProximaNova;
@@ -654,7 +678,7 @@
   .bgimg-2 {
     background-size: cover;
     background-image: url("Img/bgimg-2.png");
-    width: 100%;
+    width: 120%;
     height: 323px;
     z-index:10;  
     position: absolute;
@@ -691,7 +715,7 @@
   }
   /*contato*/
   .contato{
-    width: 100%;
+    width: 120.2%;
     height: 250px;
     background-color: #f4f4f4;
     z-index:10;  
@@ -699,8 +723,8 @@
     margin-top:137%;
   }
   .img-contato{
-    margin-top:15%;
-    margin-left:20%;
+    margin-top:12%;
+    margin-left:22%;
   }
   .img-contato img{
     width: 50px;
@@ -727,7 +751,7 @@
   /*footer*/
   .footer{
     width: 100%;
-    height: 55px;
+    height: 50px;
     background-color: white;
     z-index:10;  
     position: absolute;
@@ -736,12 +760,12 @@
   .footer p{
     font-family: ProximaNova;
     color: #6dc5ea;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 8%;
     float: left;
   }
   .footer img{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 4%;
     float: right;
   }
